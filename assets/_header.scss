@@ -7,8 +7,13 @@ nav {
     justify-content: space-around;
 
     h1 {
-        font-family: "Poppins", sans-serif;
+        font-family: $ff-all;
         margin-bottom: 1.5rem;
+    }
+
+    .intro__text {
+        font-family: $ff-all;
+        margin: 0 2rem 2rem 2rem;
     }
 
   

@@ -6,6 +6,10 @@ nav h1 {
   font-family: "Poppins", sans-serif;
   margin-bottom: 1.5rem;
 }
+nav .intro__text {
+  font-family: "Poppins", sans-serif;
+  margin: 0 2rem 2rem 2rem;
+}
 nav .button-nav {
   padding: 0.5rem 3rem;
   color: hsl(322, 100%, 66%);
@@ -21,7 +25,7 @@ nav .button-nav {
 .main__btn {
   color: white;
   background: hsl(322, 100%, 66%);
-  padding: 1.4rem 6rem;
+  padding: 1rem 3rem;
   font-size: 1.1rem;
   font-weight: 600;
   border: none;
