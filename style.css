@@ -82,13 +82,18 @@ footer {
   background-color: hsl(192, 100%, 9%);
   width: 100%;
   height: 100%;
+  color: white;
 }
-footer div {
-  overflow: hidden;
-  display: block;
-  width: 100%;
+footer #mail {
+  height: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
 }
-footer div .curve-bg {
-  display: block;
-  width: 100%;
+footer .fab {
+  color: white;
+}
+footer a {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
