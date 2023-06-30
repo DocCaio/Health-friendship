@@ -6,6 +6,10 @@ nav {
     display: flex;
     justify-content: space-around;
 
+    img {
+        max-width: 7rem;
+    }
+
     h1 {
         font-family: $ff-all;
         margin-bottom: 1.5rem;
@@ -20,8 +24,8 @@ nav {
 
      .button-nav {
         padding: 0.5rem 3rem;
-        color: hsl(322, 100%, 66%);
-        border: 1px solid hsl(322, 100%, 66%);
+        color:$button;
+        border: 1px solid $button;
         border-radius: 2rem;
         background: transparent;
         font-weight: 600;
