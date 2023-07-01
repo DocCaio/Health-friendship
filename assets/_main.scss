@@ -1,6 +1,10 @@
 
 @import '../abstract/variaveis';
 
+main {
+
+  text-align: center;
+
 .main__btn {
   color: white;
   background: hsl(322, 100%, 66%);
@@ -24,4 +28,6 @@
 .cont-h2 {
   font-size: 4.6rem;    
   font-family:$ff-all;
+}
+
 }
