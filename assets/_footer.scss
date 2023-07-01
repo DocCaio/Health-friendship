@@ -7,6 +7,7 @@ footer {
     width: 100%;
     height: 100%;
     color: white;
+    text-align: center;
 
     #mail {
 
@@ -19,11 +20,27 @@ footer {
 
   .fab  {
     color: white;
+    margin: 0.5em 0;
   }
 
   a {
     color: white;
   }
+
+ .phone{
+  margin-bottom: 0.5em;
+ }
+button{
+  color: white;
+  background:$button;    
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  padding: 1rem 3rem;
+}
 
   
  
