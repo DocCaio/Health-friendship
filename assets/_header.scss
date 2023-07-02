@@ -8,8 +8,17 @@ nav {
     display: flex;
     justify-content: space-around;
 
+    
+
     img {
         max-width: 7rem;
+    }
+
+
+    ul {
+        display: flex;
+        gap: 1em;
+        
     }
 
     h1 {
