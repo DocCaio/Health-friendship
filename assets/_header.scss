@@ -11,15 +11,10 @@ nav {
     
 
     img {
-        max-width: 7rem;
+        max-width: 10rem;
     }
 
 
-    ul {
-        display: flex;
-        gap: 1em;
-        
-    }
 
     h1 {
         font-family: $ff-all;
@@ -58,4 +53,21 @@ nav {
    
    
    }
+
+   
+   ul {
+    display: flex;
+    gap: 1em; 
+    
+    li {
+        
+        list-style-type: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    
+}
 }
