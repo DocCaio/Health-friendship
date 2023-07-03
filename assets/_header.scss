@@ -38,6 +38,10 @@ nav {
         font-family: "Open Sans", sans-serif;
         cursor: pointer;
         padding: 0.4rem 1.2rem;
+
+        ul {
+            display: none;
+        }
 }
 
 }
