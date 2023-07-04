@@ -1,3 +1,7 @@
+.nav-img {
+  max-width: 7rem;
+}
+
 main {
   text-align: center;
 }
@@ -13,9 +17,9 @@ main .main__btn {
   cursor: pointer;
 }
 main .img__main {
-  margin: 5rem auto;
-  min-width: 100%;
-  min-height: 100%;
+  margin-top: 1em;
+  max-width: 100%;
+  max-width: 100%;
 }
 main .cont-h2 {
   font-size: 4.6rem;
