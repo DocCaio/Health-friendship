@@ -1,7 +1,13 @@
-.nav-img {
-  max-width: 7rem;
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.2em;
+  }
 }
-
 main {
   text-align: center;
 }
@@ -29,6 +35,10 @@ main .cont-h2 {
 @media screen and (min-width: 1440px) {
   .main__btn {
     padding: 1.4rem 6rem;
+  }
+  .main__sec {
+    display: flex;
+    text-align: center;
   }
 }
 .containner {

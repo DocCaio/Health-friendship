@@ -1,7 +1,16 @@
 
 @import '../abstract/variaveis';
 
-.nav-img {
-    max-width: 7rem;
+@media screen  and (min-width:1440px){
+
+h1 {
+    font-size: 3em;
+    font-family: $ff-all;
+    font-weight: bold;
 }
 
+p {
+    font-size: 1.2em;
+}
+
+}
