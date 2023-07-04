@@ -26,6 +26,11 @@ main .cont-h2 {
   font-family: "Poppins", sans-serif;
 }
 
+@media screen and (min-width: 1440px) {
+  .main__btn {
+    padding: 1.4rem 6rem;
+  }
+}
 .containner {
   text-align: center;
 }
