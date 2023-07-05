@@ -76,6 +76,16 @@ main .cont-h2 {
   padding: 1rem 3rem;
 }
 
+@media screen and (min-width: 1440px) {
+  h3 {
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  .div__containner {
+    display: flex;
+  }
+}
 footer {
   background-color: hsl(192, 100%, 9%);
   width: 100%;

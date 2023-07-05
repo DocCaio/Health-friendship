@@ -40,3 +40,16 @@ h2 {
   }
 
 }
+
+
+@media screen  and (min-width:1440px){
+  h3{
+    font-size: 2.5rem;
+   font-family:$ff-all;
+    font-weight: bold;
+  }
+
+  .div__containner {
+    display: flex;
+  }
+}
