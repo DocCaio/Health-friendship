@@ -49,7 +49,19 @@ button{
 
     @media screen  and (min-width:1440px){
 
- 
+      footer {
+        justify-content: space-between;
+      }
+
+      .sec-1 {
+       display: flex;
+        
+      }
+
+      .sec-2 {
+        display: flex;
+        justify-content: end;
+      }
     
 
   bottom {
