@@ -100,24 +100,12 @@ footer {
   color: white;
   text-align: center;
 }
-footer #mail {
-  height: 3rem;
-  outline: none;
-  border: none;
-  border-radius: 0.3rem;
-  padding-left: 1rem;
-}
-footer .fab {
-  color: white;
-  margin: 0.5em 0;
-}
-footer a {
+
+a {
   color: white;
 }
-footer .phone {
-  margin-bottom: 0.5em;
-}
-footer button {
+
+button {
   color: white;
   background: #FF52BF;
   font-size: 1.1rem;
@@ -127,20 +115,4 @@ footer button {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
   cursor: pointer;
   padding: 1rem 3rem;
-}
-
-@media screen and (min-width: 1440px) {
-  footer {
-    justify-content: space-between;
-  }
-  .sec-1 {
-    display: flex;
-  }
-  .sec-2 {
-    display: flex;
-    justify-content: end;
-  }
-  bottom {
-    padding: 1.4rem 6rem;
-  }
 }/*# sourceMappingURL=style.css.map */
