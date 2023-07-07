@@ -39,6 +39,8 @@ h2 {
     padding: 1rem 3rem;
   }
 
+
+
 }
 
 
@@ -50,6 +52,12 @@ h2 {
   }
 
   .div__containner {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .div__containner-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
@@ -60,6 +68,11 @@ h2 {
   }
    bottom {
     padding: 1.4rem 6rem;
+   }
+
+   .div__containner-link {
+   margin-top: 12rem;
+   margin-right: 2rem;
    }
  
 }

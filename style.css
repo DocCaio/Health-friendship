@@ -83,6 +83,11 @@ main .cont-h2 {
     font-weight: bold;
   }
   .div__containner {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .div__containner-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
@@ -91,6 +96,10 @@ main .cont-h2 {
   }
   bottom {
     padding: 1.4rem 6rem;
+  }
+  .div__containner-link {
+    margin-top: 12rem;
+    margin-right: 2rem;
   }
 }
 footer {
@@ -128,4 +137,15 @@ input {
 .img__footer {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(125deg) brightness(103%) contrast(103%);
   margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .sec__footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .contect, .news {
+    margin: 3rem;
+  }
 }/*# sourceMappingURL=style.css.map */

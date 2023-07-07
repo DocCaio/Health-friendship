@@ -37,7 +37,19 @@ input {
     margin-top: 1.5rem;
 }
 
+@media screen  and (min-width:1440px){
 
+.sec__footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.contect , .news {
+  margin:3rem;
+}
+
+}
 
 
     //@media screen  and (min-width:1440px){
