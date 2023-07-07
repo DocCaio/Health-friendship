@@ -115,4 +115,17 @@ button {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
   cursor: pointer;
   padding: 1rem 3rem;
+}
+
+input {
+  height: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+}
+
+.img__footer {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(125deg) brightness(103%) contrast(103%);
+  margin-top: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
