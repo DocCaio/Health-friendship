@@ -5,6 +5,8 @@ main {
 
   text-align: center;
 
+}
+
 
 
 .main__btn {
@@ -34,13 +36,18 @@ main {
   font-family:$ff-all;
 }
 
-}
+
 
 @media screen  and (min-width:1440px){
 
+    .main__sec{
+      display: flex;
+      justify-content: center;
+      gap: 3em;
+    }
 
-
-    .main__btn {     
+    .main__btn {   
+        
       padding: 1.4rem 6rem;
     }
 
@@ -49,6 +56,8 @@ main {
       display: flex;
       text-align: center;
     }
+
+    
     
   
 
