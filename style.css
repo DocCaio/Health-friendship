@@ -148,4 +148,14 @@ input {
   .contect, .news {
     margin: 3rem;
   }
+  form {
+    display: flex;
+    gap: 1em;
+  }
+  form input {
+    padding: 0em 2em;
+  }
+  form #error {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
