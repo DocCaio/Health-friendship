@@ -23,23 +23,78 @@
           </ul>
         </nav>
       </header>
+
       <main>
-    <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
-     </main>
-</form>
-</div>
-<div class="contect">
-  <img class="img__footer" src="./assets/images/logo.svg" alt="logo">
-  <p>Entre em contato.</p>
-   
-<img src="./assets/images/icon-phone.svg" alt="icon-phone"> 
-<a id="Phone" href="#" aria-label="text">Phone: +1-543-123-4567</a>
+        <section>
+          <h2>Contact information</h2>
+          <fieldset>
+            <legend>Castrastr-se</legend>
+            <ul>
+                <li>
+                  <label for="title_1">
+                    <input type="radio" id="title_1" name="title" value="M." >
+                    Mister
+                  </label>
+                </li>
+                <li>
+                  <label for="title_2">
+                    <input type="radio" id="title_2" name="title" value="Ms.">
+                    Miss
+                  </label>
+                </li>
+            </ul>
+        
+          <p>
+            <label for="name">
+              <span>Name: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="name" name="username">
+          </p>
+          <p>
+            <label for="mail">
+              <span>E-mail: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="email" id="mail" name="usermail">
+          </p>
+          <p>
+            <label for="pwd">
+              <span>Password: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="password" id="pwd" name="password">
+          </p>
+        </fieldset>
+      </section>
+  </main>
 
-<img src="./assets/images/icon-email.svg" alt="icon-email">
-<a href="#" aria-label="email">example@huddle.com</a>
 
-</div>
-</section>
-</footer>  
+     <footer>
+      <section class="sec__footer">
+        <div class="news">
+          <h3>Notícias</h3>
+          <p id="save">Inscreva-se aqui é rápido e seguro.</p>
+          <form action="#" id="form">
+            <div class="infield">
+              <input type="text" id="mail">
+              <p id="error">Verifique o seu e-mail</p>
+            </div>
+            <button class="footer__btn" type="submit">Inscreva-se</button>
+        </form>
+        </div>
+        <div class="contect">
+          <img class="img__footer" src="./assets/images/logo.svg" alt="logo">
+          <p>Entre em contato.</p>
+           
+        <img src="./assets/images/icon-phone.svg" alt="icon-phone"> 
+        <a id="Phone" href="#" aria-label="text">Phone: +1-543-123-4567</a>
+      
+        <img src="./assets/images/icon-email.svg" alt="icon-email">
+        <a href="#" aria-label="email">example@huddle.com</a>
+      
+        </div>
+      </section>
+    </footer>      
 </body>
 </html>
