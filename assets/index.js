@@ -1,20 +1,15 @@
-const botao = document.querySelector('.menu__button')
-botao.addEventListener('click', funcaoCallback)
-function funcaoCallback() {
-    const menuNav = document.querySelector('.menu__nav')
-    menuNav.classList.toggle('nav-active')
-  }
+function clickMenu() {
+menu__nav.style.display ='block';
+if (menu__nav.style.display == 'block') {
+    menu__nav.style.display = 'none'
+} else {
+    menu__nav.style.display = 'block'
+}
 
+}
 
-  function funcaoCallback() {
-    const menuNav = document.querySelector('.menu__nav')
-    menuNav.classList.toggle('nav-active')
+  //Email
   
-    button.textContent === "Abrir"
-      ? button.textContent = "Fechar"
-      : button.textContent = "Abrir"
-  }
-
 
   const form = document.querySelector("#form")
 const mail = document.querySelector("#mail")
