@@ -24,7 +24,7 @@ a {
   padding: 1rem 3rem;
 }
 
-input {
+#mail {
    height: 3rem;
    outline: none;
    border: none;
@@ -55,11 +55,11 @@ input {
   margin:3rem;
 }
 
-form {
+#form {
   display: flex;
   gap: 1em;
 
-  input {
+  #mail {
    padding: 0em 2em;
     
   }

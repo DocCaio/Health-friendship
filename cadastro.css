@@ -61,7 +61,7 @@ a {
   padding: 1rem 3rem;
 }
 
-input {
+#mail {
   height: 3rem;
   outline: none;
   border: none;
@@ -86,14 +86,14 @@ input {
   .contect, .news {
     margin: 3rem;
   }
-  form {
+  #form {
     display: flex;
     gap: 1em;
   }
-  form input {
+  #form #mail {
     padding: 0em 2em;
   }
-  form #error {
+  #form #error {
     display: none;
   }
 }/*# sourceMappingURL=cadastro.css.map */
