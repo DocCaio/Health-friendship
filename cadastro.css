@@ -96,4 +96,11 @@ a {
   #form #error {
     display: none;
   }
+}
+ul {
+  list-style-type: none;
+}
+
+#experiencia {
+  width: 26em;
 }/*# sourceMappingURL=cadastro.css.map */
