@@ -17,8 +17,8 @@
         <span id="menu" class="material-symbols-outlined" onclick="clickMneu()"> menu</span>
         <nav class="menu__nav">
           <ul>
-            <li>Home<a href="./cadastro.html">Home</a></li>
-            <li>Cadastro<a href="#">Cadastro</a></li>
+            <li>Home<a href="./index.html">Home</a></li>
+            <li>Cadastro<a href="./cadastro.html">Cadastro</a></li>
             <li>Contatos<a href="#">Contatos</a></li>
           </ul>
         </nav>
@@ -34,27 +34,26 @@
       <form>
 
         <fieldset class="grupo">
-            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+         
             <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
                 <input type="text" name="nome" id="nome" required>
             </div>
 
-            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+            
             <div class="campo">
                 <label for="sobrenome"><strong>Sobrenome</strong></label>
                 <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
         </fieldset> 
 
-        <!-- Campo de email com-->
+       
         <div class="campo">
             <label for="email"><strong>Email</strong></label>
             <input type="email" name="email" id="email" required>
         </div>
 
-        <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
-        <div class="campo">
+               <div class="campo">
             <label><strong>Qual o nivel de satisfasão ?</strong></label>
             <label>
                 <input type="radio" name="devweb" value="frontend" checked>Feliz
@@ -67,7 +66,7 @@
             </label>
         </div>
 
-        <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+       
         <div class="campo">
             <label for="senioridade"><strong>Estado</strong></label>
             <select id="senioridade" required>
@@ -79,7 +78,7 @@
         </div>
 
         <fieldset class="grupo">
-            <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+            
             <div id="check">
                 <label><strong>Selecione as emoçoes:</strong></label><br><br>
                 <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
@@ -99,14 +98,14 @@
             </div>
         </fieldset>
 
-        <!-- Caixa de texto -->
+        
         <div class="campo">
             <br>
             <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
             <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
         </div>
 
-        <!-- Botão para enviar o formulário -->
+      
         <button class="botao" type="submit" onsubmit="">Concluído</button>            
 
     </form>
