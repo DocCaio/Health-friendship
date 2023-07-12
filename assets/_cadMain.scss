@@ -39,4 +39,10 @@ fieldset .grup .camp {
 
 }
 
-.camp select
+.camp select option {
+    padding-right: 1em;
+}
+
+.camp input:focus, .camp select:focus, .camp textarea:focus {
+    background: white;
+}
