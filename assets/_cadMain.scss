@@ -8,3 +8,35 @@ ul {
 #experiencia {
     width: 26em;
 }
+
+fieldset {
+    border: 0;
+}
+
+input, select , textarea ,.main__btn{
+    border-radius: 5px;
+}
+
+.camp {
+    margin-bottom: 1em;
+}
+
+.camp label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+
+fieldset .grup .camp {
+    float: left;
+    margin-right: 1em;
+}
+
+.camp input[type="text"], .camp input[type="email"], .camp select ,.camp textarea {
+    position: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0 , 0 , 0.2);
+
+}
+
+.camp select
