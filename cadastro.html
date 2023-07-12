@@ -32,70 +32,83 @@
         <br>
       </div>
       <form>
-      <fieldset class="grup">
-  <div class="camp">
-    <label for="nome"><strong>Nome</strong></label>
-    <input type="text" name="nome" id="nome" required>
-  </div>
-  <div class="camp">
-    <label for="sobrenome"> <strong>Sobrenome</strong></label>
-    <input type="text" name="sobrenome" id="sobrenome" required>
-  </div>
-      </fieldset>
 
-      <div class="camp">
-        <label for="Email"> <strong>Email</strong></label required>
-        <input type="email" id="email">
-      </div>
+        <fieldset class="grupo">
+            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
 
-      <div class="camp">
-       <label>Genero</label>
-       <label>
-        <input type="radio" name="Genero" value="Opcoes" checked>Masculino
-       </label>
-       <label>
-        <input type="radio" name="Genero" value="Opcoes">Feminino
-       </label>
-       <label>
-        <input type="radio"  name="Genero" value="Opcoes">Não responder
-       </label>
-      </div>
+            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset> 
 
-      <div class="camp">
-        <label>Estado</label>
-        <select name="estado" id="estado">
-          <option selected disabled value="">Selecione</option>
-          <option>MG</option>
-          <option>SP</option>
-          <option>RJ</option>
-        </select>
-      </div>
-
-      <fieldset  class="grup">
-        <div class="camp">
-          <label>Selecione as emoções</label><br><br>
-          <input type="checkbox" id="emocoes" name="emocoes" value="FILL">          
-        <label for="emocoes">Alegria</label>
-        <input type="checkbox" id="emocoes" name="emocoes" value="FILL">          
-        <label for="emocoes">Raiva</label>
-        <input type="checkbox" id="emocoes" name="emocoes" value="FILL">          
-        <label for="emocoes">Inveja</label>
-        <input type="checkbox" id="emocoes" name="emocoes" value="FILL">          
-        <label for="emocoes">Paz</label>
-        <input type="checkbox" id="emocoes" name="emocoes" value="FILL">          
-        <label for="emocoes">Feliz</label>
-        <input type="checkbox" id="emocoes" name="emocoes" value="FILL">          
-        <label for="emocoes">Triste</label>
+        <!-- Campo de email com-->
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
         </div>
-      </fieldset>
 
-      <div class="camp">
-        <br>
-        <label>Conte um pouca da sua experiencia :</label>
-        <textarea name="experiencia" id="experiencia" cols="30" rows="10"></textarea>
-      </div>
+        <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+        <div class="campo">
+            <label><strong>Qual o nivel de satisfasão ?</strong></label>
+            <label>
+                <input type="radio" name="devweb" value="frontend" checked>Feliz
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend">Tanto faz
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Chateado
+            </label>
+        </div>
 
-      <button class="main__btn" type="submit">Concluído</button>
+        <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+        <div class="campo">
+            <label for="senioridade"><strong>Estado</strong></label>
+            <select id="senioridade" required>
+              <option selected disabled value="">Selecione</option>
+              <option>MG</option>
+              <option>SP</option>
+              <option>RJ</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+            <div id="check">
+                <label><strong>Selecione as emoçoes:</strong></label><br><br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                <label for="tecnologia1">Feliz</label>
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                <label for="tecnologia2">Tristeza</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                <label for="tecnologia3">Inveja</label>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                <label for="tecnologia4">Raiva</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                <label for="tecnologia5">Medo</label>
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                <label for="tecnologia6">Orgulho</label>
+                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                <label for="tecnologia7">Alegria</label>
+            </div>
+        </fieldset>
+
+        <!-- Caixa de texto -->
+        <div class="campo">
+            <br>
+            <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <!-- Botão para enviar o formulário -->
+        <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
     </form>
 
     
