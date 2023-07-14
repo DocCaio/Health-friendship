@@ -1,8 +1,8 @@
 
 @import '../abstract/variaveis';
 
-main {
-
+main { 
+   
   text-align: center;
 }
 
@@ -16,17 +16,18 @@ main {
   border-radius: 2rem;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  
 }
 
 
 
 .img__main {
+  
   margin-top: 1em;
   max-width: 100%;
   max-width:  100%;
   
-    display: block;
-    margin-inline: auto;
+  
 }
 
 
@@ -40,11 +41,10 @@ main {
 
 @media screen  and (min-width:1440px){
 
-  .img__main {
-
-  
+  .img__main {  
     display: block;
     margin-inline: auto;
+
 }
 
     .main__sec{
@@ -53,9 +53,7 @@ main {
       gap: 3em;
     }
 
-    .main__btn {  
-     
-        
+    .main__btn {      
       padding: 1.4rem 6rem;
     }
 

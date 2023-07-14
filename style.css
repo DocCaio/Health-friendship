@@ -65,6 +65,10 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
+  .img__main {
+    display: block;
+    margin-inline: auto;
+  }
   .main__sec {
     display: flex;
     justify-content: center;
