@@ -1,211 +1,27 @@
-.nav-img {
-  max-width: 7rem;
-}
-
-#menu {
-  background-color: rgb(48, 48, 48);
-  padding: 10px;
-  cursor: pointer;
-}
-
-#menu:hover {
-  background-color: white;
-  color: black;
-}
-
-@media screen and (min-width: 1440px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-  ul {
-    display: block;
-    display: flex;
-  }
-  #menu {
-    display: none;
-  }
-  .nav-img {
-    max-width: 100vw;
-  }
-  h1 {
-    font-size: 3em;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-  }
-  p {
-    font-size: 1.2em;
-  }
-}
-footer {
-  background-color: hsl(192, 100%, 9%);
-  width: 100%;
-  height: 100%;
-  color: white;
-  text-align: center;
-}
-
-a {
-  color: white;
-}
-
-.footer__btn {
-  color: white;
-  background: #FF52BF;
-  font-size: 1.1rem;
-  font-weight: 600;
-  border: none;
-  border-radius: 2rem;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  padding: 1rem 3rem;
-}
-
-#mail {
-  height: 3rem;
-  outline: none;
-  border: none;
-  border-radius: 0.3rem;
-  padding-left: 1rem;
-}
-
-.img__footer {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(125deg) brightness(103%) contrast(103%);
-  margin-top: 1.5rem;
-}
-
-@media screen and (min-width: 1440px) {
-  footer {
-    margin-top: 1em;
-  }
-  .sec__footer {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-  }
-  .contect, .news {
-    margin: 3rem;
-  }
-  #form {
-    display: flex;
-    gap: 1em;
-  }
-  #form #mail {
-    padding: 0em 2em;
-  }
-  #form #error {
-    display: none;
-  }
-}
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-#titulo {
-  font-family: sans-serif;
-  color: #380B61;
-  margin-left: 7%;
-}
-
-#subtitulo {
-  font-family: sans-serif;
-  color: #380B61;
-  margin-left: 10%;
-}
-
-#check {
-  display: inline-block;
-}
-
-fieldset {
-  border: 0;
-}
-
-body {
-  background-color: #F0F8FF;
-  font-family: sans-serif;
-  font-size: 1em;
-  color: #59429d;
-  margin-left: 36%;
-  margin-top: 2%;
+#container {
+  height: 100vh;
+  margin: 100%;
+  background: purple;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-input, select, textarea, button {
-  font-family: sans-serif;
-  font-size: 1em;
-  color: #59429d;
-  border-radius: 5px;
+#login_form {
+  background-color: #f8fadc;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  gap: 30px;
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
 }
 
-.grupo:before, .grupo:after {
-  display: table;
-}
-
-.grupo:after {
-  clear: both;
-}
-
-.campo {
-  margin-bottom: 1em;
-}
-
-.campo label {
-  margin-bottom: 0.2em;
-  color: #59429d;
-  display: block;
-}
-
-fieldset.grupo .campo {
-  float: left;
-  margin-right: 1em;
-}
-
-.campo input[type=text], .campo input[type=email], .campo select, .campo textarea {
-  padding: 0.2em;
-  border: 1px solid #59429d;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  display: block;
-}
-
-.campo select option {
-  padding-right: 1em;
-}
-
-.campo input:focus, .campo select:focus, .campo textarea:focus {
-  background: #E0E0F8;
-}
-
-.botao {
-  font-size: 1.2em;
-  background: #59429d;
-  border: 0;
-  margin-bottom: 1em;
-  color: #ffffff;
-  padding: 0.2em 0.6em;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.botao:hover {
-  background: #CCBBFF;
-  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
-  text-shadow: none;
-}
-
-.botao, select {
-  cursor: pointer;
-}
-
-@media screen and (min-width: 1440px) {
-  .cad__sec {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+#social_media img {
+  width: 35px;
 }/*# sourceMappingURL=cadastro.css.map */
