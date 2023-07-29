@@ -1,3 +1,4 @@
+@import './cad.css';
 .nav-img {
   max-width: 7rem;
 }
@@ -20,7 +21,7 @@
 }
 
 .header-btn:hover {
-  background: hsl(322, 100%, 66%);
+  background-color: rgb(132, 14, 201);
   color: white;
 }
 
