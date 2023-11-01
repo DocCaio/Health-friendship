@@ -15,12 +15,14 @@
 }
 
 .header-btn {
+  display: none;
   border: 2px solid rgb(132, 14, 201);
   padding: 10px;
   border-radius: 15px;
 }
 
 .header-btn:hover {
+  display: none;
   background-color: rgb(132, 14, 201);
   color: white;
 }
@@ -29,6 +31,12 @@
   header {
     display: flex;
     justify-content: space-between;
+  }
+  header .header-btn {
+    display: none;
+  }
+  header .header-btn:hover {
+    display: none;
   }
   ul {
     display: block;
@@ -42,6 +50,7 @@
     display: none;
   }
   .nav-img {
+    padding: 2em;
     max-width: 100vw;
   }
   h1 {
